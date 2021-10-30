@@ -1,0 +1,166 @@
+body {
+	font-family: arial, sans-serif;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	margin-top: 55px;
+
+}
+
+.header h1 {
+	text-align: center;
+}
+
+ul li{
+	padding-left: 12%;
+	padding-top: 12px;
+	list-style: none;
+	display: inline-block;
+}
+
+.navigation{
+	background-color: purple;
+	border-radius: 6px;
+}
+
+.navigation li{
+	cursor:pointer;
+	margin-right:24px;
+	height: 40px;
+	display: inline-block;
+}
+
+.navigation li a{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.navigation li:hover a{
+	color: orange;
+}
+
+.navigation ul{
+	margin-block-start:0px;
+	margin-block-end:0px;
+}
+
+.content {
+	width: 100%;
+	height: 205px;
+	margin-top: 30px;
+
+}
+
+.content-top-item{
+	width: 20%;
+	float: left;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 40px; 
+	margin-bottom: 40px;
+}
+
+.content-top-text{
+	margin-top: 5px;
+	font-size:  12px;
+	font-weight: 600;
+
+}
+
+.content-top-image{
+	width: 100%;
+}
+
+/*.content-left {
+	width: 50%;
+	height: 205px;
+	background-color: yellow;
+}
+
+.content-right {
+	width: 50px;
+	height: 205px;
+	background-color: green;
+}*/
+
+.footer{
+	border-top: 2px solid black;
+	height: 50px;
+	background-color: blue;
+	text-align: center;
+}
+
+#fixed-header{
+	top:0;
+	left:0;
+	right:0;
+	height: 46px;
+	width:	100%;
+	background-color: purple;
+	position: fixed;
+	box-shadow: 0px 0px 5px grey;
+	text-align: center;
+}
+
+.header.img{
+	margin-top; 50px;
+	margin-bottom: 50px;
+}
+
+.content-left{
+	float: left;
+	width: 60%;
+}
+
+.content-right{
+	float: left;
+	width: 60%;
+}
+
+.fitur-img{
+	height: 300px;
+	width: 600px;
+	background-image: url(img/news.jpg);
+	transition: all .5s;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.fitur-img:hover, .fitur-img:focus{
+	transform: scale(1.2);
+}
+
+.fitur-text{
+	height: 80px;
+	background-color: purple;
+	position: relative;
+}
+
+.fitur{
+	margin-bottom: 32px;
+	border-radius: 10px;
+}
+
+.fitur-title-wrapper{
+	position: absolute;
+	bottom: 0;
+}
+
+
+/*.header-title img{
+	margin-left: 70px;
+}
+
+
+
+
+
+
+
+
+
+
